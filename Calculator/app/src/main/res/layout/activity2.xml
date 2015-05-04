@@ -1,0 +1,178 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_marginTop="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="0"
+            android:gravity="right" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Standard"
+        android:id="@+id/buttonfunc"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/btnDEL"
+        android:layout_alignParentStart="true" />
+
+    <Button
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:text="Del"
+            android:id="@+id/btnDEL"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="SIN"
+        android:id="@+id/buttonsin"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="COS"
+        android:id="@+id/buttoncos"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttonsin"
+        android:layout_toEndOf="@+id/buttonsin" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="TAN"
+        android:id="@+id/buttontan"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttoncos"
+        android:layout_toEndOf="@+id/buttoncos" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="I"
+        android:id="@+id/buttoni"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttontan"
+        android:layout_toEndOf="@+id/buttontan" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="LN"
+        android:id="@+id/buttonln"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonsin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="LOG"
+        android:id="@+id/buttonlog"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttoncos"
+        android:layout_alignStart="@+id/buttoncos" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="PI"
+        android:id="@+id/buttonpie"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttontan"
+        android:layout_alignStart="@+id/buttontan" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="E"
+        android:id="@+id/buttone"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttontan"
+        android:layout_toEndOf="@+id/buttonpie" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="%"
+        android:id="@+id/buttonper"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonln"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Sqt"
+        android:id="@+id/buttonsqrt"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttonper"
+        android:layout_alignStart="@+id/buttonlog" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="^"
+        android:id="@+id/buttonres"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttonsqrt"
+        android:layout_alignStart="@+id/buttonpie" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="!"
+        android:id="@+id/buttonfact"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/buttonres"
+        android:layout_alignStart="@+id/buttone" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="("
+        android:id="@+id/buttonbr1"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonper"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text=")"
+        android:id="@+id/buttonbr2"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonsqrt"
+        android:layout_alignStart="@+id/buttonsqrt" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="="
+        android:id="@+id/buttoneq"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonres"
+        android:layout_alignStart="@+id/buttonres"
+        android:layout_toStartOf="@+id/btnDEL" />
+
+
+</RelativeLayout>
