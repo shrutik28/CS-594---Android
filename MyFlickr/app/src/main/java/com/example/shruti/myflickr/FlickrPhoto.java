@@ -6,9 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 
-/**
- * Created by mark on 4/30/15.
- */
+
 public class FlickrPhoto {
     String id, owner, secret, server, farm, title;
     Boolean isPublic, isFriend, isFamily;
