@@ -16,9 +16,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-/**
- * Created by mark on 4/29/15.
- */
+
 public class FlickerFragment extends Fragment implements AdapterView.OnItemClickListener{
     String[] mTitles;
     ArrayList<FlickrPhoto> photos;
